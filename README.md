@@ -98,4 +98,21 @@ End program.
 
 
 
+# Algorithm for Printing Alphabet Pattern
+Initialize variables:
 
+Set the number of rows n to 5.
+
+Set the starting character ch to 'a'.
+
+For each row from 1 to n:
+
+For each column from 1 to the current row number:
+
+Print the current character ch followed by a space.
+
+Increment the character ch to the next alphabetical character.
+
+After printing all characters in the current row, print a newline to move to the next row.
+
+End program.
