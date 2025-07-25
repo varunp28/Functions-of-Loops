@@ -116,3 +116,17 @@ Increment the character ch to the next alphabetical character.
 After printing all characters in the current row, print a newline to move to the next row.
 
 End program.
+
+# Algorithm for Printing Star Pattern
+
+Initialize the number of rows n to 5.
+
+For each row i from 1 to n:
+
+For each column j from 1 to i:
+
+Print " *" (an asterisk with a space before it).
+
+After printing all stars in the current row, print a newline to move to the next row.
+
+End the program.
