@@ -45,3 +45,57 @@ The loop body executes first, then the condition is checked.
 If the condition is true, the loop repeats; otherwise, it stops.
 
 Useful when you want to execute a loop body before checking a condition.
+
+
+
+
+
+
+# Algorithm for Password verification:
+Algorithm for Password Verification Program
+Initialize variables:
+
+Set the correct password (e.g., "OpenSesame").
+
+Initialize attempts to 0.
+
+Set the maximum allowed attempts to 3.
+
+Initialize a flag accessGranted to false.
+
+Repeat while attempts are less than the maximum allowed and access is not granted:
+
+Prompt the user to enter a password.
+
+Read the user input.
+
+Check if the entered password matches the correct password:
+
+If yes:
+
+Set accessGranted to true.
+
+Display "Access Granted! Welcome!".
+
+Exit the loop.
+
+If no:
+
+Increment attempts by 1.
+
+Display "Incorrect password. Try again.".
+
+Display the number of remaining attempts (maxAttempts - attempts).
+
+After the loop ends, check if access was not granted:
+
+If accessGranted is still false:
+
+Display "System Locked! Too many incorrect attempts.".
+
+End program.
+
+
+
+
+
